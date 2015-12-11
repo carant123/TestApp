@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Refresh</string>
+    <string name="Valor1_Text">Valor1</string>
+    <string name="Valor2_Text">Valor2</string>
+    <string name="Resultado_Text">Resultado</string>
+    <string name="Sumar_Text">Sumar</string>
+    <string name="textoNombre">Nombre</string>
+    <string name="correotexto">Correo</string>
+    <string name="textoboton">Enviar</string>
+    <string name="textoTravis">Travis is the coolest person I know</string>
+    <string name="TextAddone">Add One</string>
+    <string name="TextSubstracone">Substract One</string>
+
+
+    <string name="action_search">Search</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="nav_item_home">Home</string>
+    <string name="nav_item_friends">Friends</string>
+    <string name="nav_item_notifications">Messages</string>
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_home</item>
+        <item>@string/nav_item_friends</item>
+        <item>@string/nav_item_notifications</item>
+    </string-array>
+
+    <string name="title_messages">Messages</string>
+    <string name="title_friends">Friends</string>
+    <string name="title_home">Home</string>
+
+
+</resources>

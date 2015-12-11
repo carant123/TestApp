@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.carlosantonio.myapplication" >
+
+    <uses-permission android:name="android.permission.SET_WALLPAPER"></uses-permission>
+    <uses-permission android:name="android.permission.WAKE_LOCK"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/MyMaterialTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+
+        <activity android:name=".Suma" android:label="@string/app_name">
+        </activity>
+
+        <activity android:name=".Logo" android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Menu" android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.example.carlosantonio.myapplication.menu" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Mensaje" android:label="@string/app_name">
+        </activity>
+
+        <activity android:name=".Data" android:label="@string/app_name">
+        </activity>
+
+        <activity android:name=".OpenedClass" android:label="@string/app_name">
+        </activity>
+
+        <activity android:name=".photo" android:label="Camera Application" android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:name=".AboutUs"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Dialog">
+
+            <intent-filter>
+                <action android:name="com.example.carlosantonio.myapplication.about" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name=".Prefs"
+            android:label="@string/app_name">
+
+            <intent-filter>
+                <action android:name="com.example.carlosantonio.myapplication.PREFS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name=".SumaResta"
+            android:label="@string/app_name">
+
+            <intent-filter>
+                <action android:name="com.example.carlosantonio.myapplication.SumaResta" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name=".GFX"
+            android:label="@string/app_name">
+
+            <intent-filter>
+                <action android:name="com.example.carlosantonio.myapplication.GFX" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name=".GFXSurface"
+            android:label="@string/app_name">
+
+            <intent-filter>
+                <action android:name="com.example.carlosantonio.myapplication.GFXSurface" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name=".SoundStaff"
+            android:label="@string/app_name">
+
+            <intent-filter>
+                <action android:name="com.example.carlosantonio.myapplication.SoundStaff" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name=".Slider"
+            android:label="@string/app_name">
+
+            <intent-filter>
+                <action android:name="com.example.carlosantonio.myapplication.Slider" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name=".Tabs"
+            android:label="@string/app_name">
+
+            <intent-filter>
+                <action android:name="com.example.carlosantonio.myapplication.Slider" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name=".SimpleBrowser"
+            android:label="@string/app_name">
+
+            <intent-filter>
+                <action android:name="com.example.carlosantonio.myapplication.SimpleBrowser" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name=".Flipper"
+            android:label="@string/app_name">
+
+            <intent-filter>
+                <action android:name="com.example.carlosantonio.myapplication.Flipper" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name=".SharedPrefs"
+            android:label="@string/app_name">
+
+            <intent-filter>
+                <action android:name="com.example.carlosantonio.myapplication.SharedPrefs" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name=".InternalData"
+            android:label="@string/app_name">
+
+            <intent-filter>
+                <action android:name="com.example.carlosantonio.myapplication.InternalData" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name=".ExternalData"
+            android:label="@string/app_name">
+
+            <intent-filter>
+                <action android:name="com.example.carlosantonio.myapplication.ExternalData" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name=".SQLiteExample"
+            android:label="@string/app_name">
+
+            <intent-filter>
+                <action android:name="com.example.carlosantonio.myapplication.SQLiteExample" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name=".SQLView"
+            android:label="@string/app_name">
+
+            <intent-filter>
+                <action android:name="com.example.carlosantonio.myapplication.SQLView" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name=".Accelerate"
+            android:label="@string/app_name">
+
+            <intent-filter>
+                <action android:name="com.example.carlosantonio.myapplication.Accelerate" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name=".HttpExample"
+            android:label="@string/app_name">
+
+            <intent-filter>
+                <action android:name="com.example.carlosantonio.myapplication.HttpExample" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name=".TestHttp"
+            android:label="@string/app_name">
+
+            <intent-filter>
+                <action android:name="com.example.carlosantonio.myapplication.TestHttp" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name=".Encuesta_Tab"
+            android:label="@string/app_name">
+
+            <intent-filter>
+                <action android:name="com.example.carlosantonio.myapplication.Encuesta_Tab" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name=".Notificaciones"
+            android:label="@string/app_name">
+
+            <intent-filter>
+                <action android:name="com.example.carlosantonio.myapplication.Notificaciones" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name=".ActionBar"
+            android:label="@string/app_name">
+
+            <intent-filter>
+                <action android:name="com.example.carlosantonio.myapplication.ActionBar" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name=".EncuestaDetalles"
+            android:label="@string/app_name">
+
+            <intent-filter>
+                <action android:name="com.example.carlosantonio.myapplication.EncuestaDetalles" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+
+
+
+    </application>
+
+</manifest>
